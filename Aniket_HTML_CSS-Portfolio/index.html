@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio | Web Developer</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. Header / Navigation -->
+  <header>
+    <div class="nav-container">
+      <div class="logo">MyPortfolio</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- 2. Hero / Home -->
+    <section id="home" class="hero-section">
+      <div class="hero-content">
+        <h1>Hi, I'm <span class="highlight">Aniket</span></h1>
+        <p class="role">Aspiring Frontend Web Developer</p>
+        <p class="intro">I love building clean, responsive, and user-friendly websites. Currently expanding my skills in HTML and CSS.</p>
+        <!-- Links to the projects section -->
+        <a href="#projects" class="btn primary-btn">View My Work</a>
+      </div>
+    </section>
+
+    <!-- 3. About Me -->
+    <section id="about" class="section-container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <p>I am a passionate web development student with a strong interest in creating accessible digital experiences. I am currently completing an HTML & CSS internship to strengthen my foundational skills in frontend design.</p>
+        <p><strong>Education:</strong> B.S. in Computer Science (Expected 2027)</p>
+        <p><strong>Career Interests:</strong> Frontend Development, UI/UX Design, Open Source Contribution.</p>
+      </div>
+    </section>
+
+    <!-- 4. Skills -->
+    <section id="skills" class="section-container bg-light">
+      <h2>Technical Skills</h2>
+      <!-- Flexbox is used in CSS to wrap these chips neatly -->
+      <div class="skills-wrapper">
+        <span class="skill-chip">HTML5</span>
+        <span class="skill-chip">CSS3</span>
+        <span class="skill-chip">Responsive Design</span>
+        <span class="skill-chip">Git / GitHub</span>
+        <span class="skill-chip">Web Accessibility</span>
+      </div>
+    </section>
+
+    <!-- 5. Projects -->
+    <section id="projects" class="section-container">
+      <h2>My Projects</h2>
+      <!-- CSS Grid is used here to create a responsive 2-column layout -->
+      <div class="projects-grid">
+        
+        <!-- Project 1 -->
+        <article class="project-card">
+          <div class="project-info">
+            <h3>Recipe Finder Page</h3>
+            <p>A static webpage displaying various recipes. Built to practice semantic HTML document structure and basic CSS styling.</p>
+            <p class="tech-stack"><strong>Technologies:</strong> HTML, CSS</p>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card">
+          <div class="project-info">
+            <h3>Product Landing Page</h3>
+            <p>A promotional landing page for a fictional smartwatch, featuring a CSS Flexbox layout, pricing tables, and responsive navigation.</p>
+            <p class="tech-stack"><strong>Technologies:</strong> HTML, CSS, Flexbox</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 6. Contact -->
+    <section id="contact" class="section-container bg-light text-center">
+      <h2>Get In Touch</h2>
+      <p>I am currently looking for junior developer roles and freelance opportunities. Feel free to reach out!</p>
+      <div class="contact-links">
+        <a href="mailto:aniketkumar04055@gmail.com" class="btn primary-btn">Email Me</a>
+        <a href="https://github.com/Aniket04-05" target="_blank" class="btn secondary-btn">GitHub Profile</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- 7. Footer -->
+  <footer>
+    <p>&copy; 2026 Aniket | Built for HTML & CSS Internship Project</p>
+  </footer>
+
+</body>
+</html>
